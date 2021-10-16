@@ -16,9 +16,13 @@ h1 {
   line-height: 1.5;
 }
 
-.hello {
-  width:60%;
-  transform: rotate(25deg);
+h3 {
+  font-style: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #afafaf;
 }
 
 /* Navigation Bar */
@@ -45,4 +49,29 @@ h1 {
 /* Download Button */
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+/* Title-image */
+.hello {
+  width:60%;
+  transform: rotate(25deg);
+}
+
+/* features-section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
